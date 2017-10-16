@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		9B3C6ACF1F807B84000806C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C6ACE1F807B84000806C0 /* AppDelegate.swift */; };
 		9B3C6AD11F807B84000806C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C6AD01F807B84000806C0 /* ViewController.swift */; };
-		9B3C6AD41F807B84000806C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C6AD21F807B84000806C0 /* Main.storyboard */; };
 		9B3C6AD61F807B84000806C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C6AD51F807B84000806C0 /* Assets.xcassets */; };
 		9B3C6AD91F807B84000806C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C6AD71F807B84000806C0 /* LaunchScreen.storyboard */; };
 		9B3C6AE41F807B85000806C0 /* HealthSnapsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C6AE31F807B85000806C0 /* HealthSnapsProjectTests.swift */; };
 		9B3C6AEF1F807B85000806C0 /* HealthSnapsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C6AEE1F807B85000806C0 /* HealthSnapsProjectUITests.swift */; };
+		9BEE0FD91F807CFD00F0B8CA /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FD41F807CFC00F0B8CA /* SwiftyRecordButton.swift */; };
+		9BEE0FDA1F807CFD00F0B8CA /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FD51F807CFC00F0B8CA /* VideoViewController.swift */; };
+		9BEE0FDB1F807CFD00F0B8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEE0FD61F807CFC00F0B8CA /* Main.storyboard */; };
+		9BEE0FDC1F807CFD00F0B8CA /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FD71F807CFC00F0B8CA /* PhotoViewController.swift */; };
+		9BEE0FDD1F807CFD00F0B8CA /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FD81F807CFC00F0B8CA /* Orientation.swift */; };
+		9BEE0FDF1F807D2100F0B8CA /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 9BEE0FDE1F807D2100F0B8CA /* Source */; };
+		9BEE0FE41F807D6C00F0B8CA /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FE01F807D6B00F0B8CA /* PreviewView.swift */; };
+		9BEE0FE51F807D6C00F0B8CA /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FE11F807D6B00F0B8CA /* SwiftyCamViewController.swift */; };
+		9BEE0FE61F807D6C00F0B8CA /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FE21F807D6C00F0B8CA /* SwiftyCamButton.swift */; };
+		9BEE0FE71F807D6C00F0B8CA /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FE31F807D6C00F0B8CA /* SwiftyCamViewControllerDelegate.swift */; };
+		9BEE0FE91F808A7600F0B8CA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE0FE81F808A7600F0B8CA /* ChatViewController.swift */; };
+		9BEE0FEB1F8093E000F0B8CA /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BEE0FEA1F8093E000F0B8CA /* countries.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +48,6 @@
 		9B3C6ACB1F807B84000806C0 /* HealthSnapsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthSnapsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3C6ACE1F807B84000806C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B3C6AD01F807B84000806C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B3C6AD31F807B84000806C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B3C6AD51F807B84000806C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B3C6AD81F807B84000806C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B3C6ADA1F807B84000806C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		9B3C6AEA1F807B85000806C0 /* HealthSnapsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthSnapsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3C6AEE1F807B85000806C0 /* HealthSnapsProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSnapsProjectUITests.swift; sourceTree = "<group>"; };
 		9B3C6AF01F807B85000806C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BEE0FD41F807CFC00F0B8CA /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		9BEE0FD51F807CFC00F0B8CA /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		9BEE0FD61F807CFC00F0B8CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9BEE0FD71F807CFC00F0B8CA /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		9BEE0FD81F807CFC00F0B8CA /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		9BEE0FDE1F807D2100F0B8CA /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		9BEE0FE01F807D6B00F0B8CA /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		9BEE0FE11F807D6B00F0B8CA /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		9BEE0FE21F807D6C00F0B8CA /* SwiftyCamButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamButton.swift; sourceTree = "<group>"; };
+		9BEE0FE31F807D6C00F0B8CA /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		9BEE0FE81F808A7600F0B8CA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9BEE0FEA1F8093E000F0B8CA /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,23 @@
 		9B3C6ACD1F807B84000806C0 /* HealthSnapsProject */ = {
 			isa = PBXGroup;
 			children = (
+				9BEE0FEA1F8093E000F0B8CA /* countries.txt */,
+				9BEE0FE01F807D6B00F0B8CA /* PreviewView.swift */,
+				9BEE0FE21F807D6C00F0B8CA /* SwiftyCamButton.swift */,
+				9BEE0FE11F807D6B00F0B8CA /* SwiftyCamViewController.swift */,
+				9BEE0FE31F807D6C00F0B8CA /* SwiftyCamViewControllerDelegate.swift */,
+				9BEE0FDE1F807D2100F0B8CA /* Source */,
+				9BEE0FD61F807CFC00F0B8CA /* Main.storyboard */,
+				9BEE0FD81F807CFC00F0B8CA /* Orientation.swift */,
+				9BEE0FD71F807CFC00F0B8CA /* PhotoViewController.swift */,
+				9BEE0FD41F807CFC00F0B8CA /* SwiftyRecordButton.swift */,
+				9BEE0FD51F807CFC00F0B8CA /* VideoViewController.swift */,
 				9B3C6ACE1F807B84000806C0 /* AppDelegate.swift */,
 				9B3C6AD01F807B84000806C0 /* ViewController.swift */,
-				9B3C6AD21F807B84000806C0 /* Main.storyboard */,
 				9B3C6AD51F807B84000806C0 /* Assets.xcassets */,
 				9B3C6AD71F807B84000806C0 /* LaunchScreen.storyboard */,
 				9B3C6ADA1F807B84000806C0 /* Info.plist */,
+				9BEE0FE81F808A7600F0B8CA /* ChatViewController.swift */,
 			);
 			path = HealthSnapsProject;
 			sourceTree = "<group>";
@@ -232,9 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEE0FDF1F807D2100F0B8CA /* Source in Resources */,
 				9B3C6AD91F807B84000806C0 /* LaunchScreen.storyboard in Resources */,
 				9B3C6AD61F807B84000806C0 /* Assets.xcassets in Resources */,
-				9B3C6AD41F807B84000806C0 /* Main.storyboard in Resources */,
+				9BEE0FEB1F8093E000F0B8CA /* countries.txt in Resources */,
+				9BEE0FDB1F807CFD00F0B8CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +295,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B3C6AD11F807B84000806C0 /* ViewController.swift in Sources */,
+				9BEE0FD91F807CFD00F0B8CA /* SwiftyRecordButton.swift in Sources */,
+				9BEE0FE91F808A7600F0B8CA /* ChatViewController.swift in Sources */,
+				9BEE0FE41F807D6C00F0B8CA /* PreviewView.swift in Sources */,
+				9BEE0FDA1F807CFD00F0B8CA /* VideoViewController.swift in Sources */,
 				9B3C6ACF1F807B84000806C0 /* AppDelegate.swift in Sources */,
+				9BEE0FDD1F807CFD00F0B8CA /* Orientation.swift in Sources */,
+				9BEE0FE61F807D6C00F0B8CA /* SwiftyCamButton.swift in Sources */,
+				9BEE0FE51F807D6C00F0B8CA /* SwiftyCamViewController.swift in Sources */,
+				9BEE0FDC1F807CFD00F0B8CA /* PhotoViewController.swift in Sources */,
+				9BEE0FE71F807D6C00F0B8CA /* SwiftyCamViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +340,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9B3C6AD21F807B84000806C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B3C6AD31F807B84000806C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9B3C6AD71F807B84000806C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
